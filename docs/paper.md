@@ -10,3 +10,4 @@ Firstly, I searched basically "nix wrapping .deb packages". But then,
 - https://www.reddit.com/r/NixOS/comments/16kekht/install_commercial_deb_package_on_nixos/
 - http://www.chriswarbo.net/projects/nixos/debian_packages.html
 - https://nixos.wiki/wiki/Nixpkgs/Building_RPM_DEB_with_nixpkgs
+- https://www.reddit.com/r/NixOS/comments/c0tx8p/which_package_provides_libegl/

@@ -33,7 +33,7 @@
         apps = {
           default = {
             type = "app";
-            program = "${pkg}/opt/Яндекс\ Музыка/yandex-music";
+            program = "${pkg}/opt/Яндекс\ Музыка/yandexmusic";
           };
         };
       };
