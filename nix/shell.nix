@@ -41,6 +41,10 @@ in
   pkgs.mkShell {
     name = "yandex-music-dev";
 
+    nativeBuildInputs = with pkgs; [
+      nixd
+    ];
+
     packages = libPkgs;
 
     shellHook = ''
