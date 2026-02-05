@@ -4,7 +4,7 @@
   stdenv,
 }:
 stdenv.mkDerivation {
-  pname = "yandex-music-nix";
+  pname = "yandex-music-bin";
   version = "5.84.1";
 
   src = fetchurl {

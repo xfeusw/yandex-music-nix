@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "Yandex Music (deb repack) flake";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
@@ -35,6 +35,12 @@
             type = "app";
             program = "${pkg}/opt/Яндекс\ Музыка/yandexmusic";
           };
+        };
+      };
+
+      flake = {
+        overlays.default = final: prev: {
+          yandex-music-bin = prev.callPackage ./nix/package.nix {};
         };
       };
     };
