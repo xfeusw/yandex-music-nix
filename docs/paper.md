@@ -2,7 +2,7 @@ In September of 2025, I've faced a problem of installing [yandex-music](https://
 
 Today we'll research how .deb packages work. And how other people "nixifies" them. I'll drop all sources during my research at the end of file.
 
-Firstly, I searched basically "nix wrapping .deb packages". But then,
+Firstly, I searched basically "nix wrapping .deb packages". But then, tried to inspect codebase of nixpkgs and tried to find nixified .deb package. Then just started to from this template in discourse - [link](https://discourse.nixos.org/t/how-to-install-deb-or-rpm/69627/3). Then just
 
 ## Sources
 
