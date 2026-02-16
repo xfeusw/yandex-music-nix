@@ -61,7 +61,7 @@ in
     version = "5.85.0";
 
     src = fetchurl {
-      url = "https://desktop.app.music.yandex.net/stable/Yandex_Music_amd64_5.85.0.deb";
+      url = "https://desktop.app.music.yandex.net/stable/Yandex_Music_amd64_5.86.0.deb";
       hash = "sha256-1astgZCU9H6GhVCSMMYbv0easZQLtEdoCDxQSimxjB0=";
     };
 
