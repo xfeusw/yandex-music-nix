@@ -19,7 +19,22 @@
   alsa-lib,
   libGL,
   libgbm,
-  xorg,
+  libx11,
+  libxext,
+  libxrender,
+  libxrandr,
+  libxi,
+  libxcursor,
+  libxfixes,
+  libxdamage,
+  libxcomposite,
+  libxtst,
+  libxcb,
+  libxcb-util,
+  libxcb-wm,
+  libxcb-image,
+  libxcb-keysyms,
+  libxcb-render-util,
   pkgs,
 }: let
   runtimeLibs = [
@@ -38,22 +53,22 @@
     alsa-lib
     libGL
     libgbm
-    xorg.libX11
-    xorg.libXext
-    xorg.libXrender
-    xorg.libXrandr
-    xorg.libXi
-    xorg.libXcursor
-    xorg.libXfixes
-    xorg.libXdamage
-    xorg.libXcomposite
-    xorg.libXtst
-    xorg.libxcb
-    xorg.xcbutil
-    xorg.xcbutilwm
-    xorg.xcbutilimage
-    xorg.xcbutilkeysyms
-    xorg.xcbutilrenderutil
+    libx11
+    libxext
+    libxrender
+    libxrandr
+    libxi
+    libxcursor
+    libxfixes
+    libxdamage
+    libxcomposite
+    libxtst
+    libxcb
+    libxcb-util
+    libxcb-wm
+    libxcb-image
+    libxcb-keysyms
+    libxcb-render-util
   ];
 in
   stdenv.mkDerivation {
