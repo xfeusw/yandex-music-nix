@@ -31,6 +31,13 @@ Enable the overlay and install the package:
 }
 ```
 
+Enable nix-ld:
+
+```nix
+# e.g. configuration.nix
+programs.nix-ld.enable = true;
+```
+
 ## How it works
 
 - Fetches the official `.deb`
