@@ -74,11 +74,11 @@ let
 in
 stdenv.mkDerivation {
   pname = "yandex-music-bin";
-  version = "5.94.0";
+  version = "5.95.0";
 
   src = fetchurl {
-    url = "https://desktop.app.music.yandex.net/stable/Yandex_Music_amd64_5.94.0.deb";
-    hash = "sha256-WgfPxgX4KWX04Q3N2YM8eRjdCm/XJEqaI/zvjg/ABEc=";
+    url = "https://desktop.app.music.yandex.net/stable/Yandex_Music_amd64_5.95.0.deb";
+    hash = "sha256-hxmsjExUuFZq049f1T3x30iIcGuKYFVziDDNwlESt1w=";
   };
 
   nativeBuildInputs = [
