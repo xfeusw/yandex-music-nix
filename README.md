@@ -15,7 +15,7 @@ nix develop  # dev-shell
 Add as an input to your system flake:
 
 ```nix
-inputs.yandex-music.url = "github:xfeusw/yandex-music-nix";
+inputs.yandex-music.url = "git+https://codeberg.org/congeries/yandex-music-nix.git";
 ```
 
 Enable the overlay and install the package:

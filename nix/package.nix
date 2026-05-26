@@ -35,6 +35,7 @@
   libxcb-image,
   libxcb-keysyms,
   libxcb-render-util,
+  libudev-zero,
   pkgs,
 }:
 let
@@ -70,15 +71,16 @@ let
     libxcb-image
     libxcb-keysyms
     libxcb-render-util
+    libudev-zero
   ];
 in
 stdenv.mkDerivation {
   pname = "yandex-music-bin";
-  version = "5.96.3";
+  version = "5.103.2";
 
   src = fetchurl {
-    url = "https://desktop.app.music.yandex.net/stable/Yandex_Music_amd64_5.96.3.deb";
-    hash = "sha256-5Dwa5AaGunJmGM9bIZSeJOjne10T77I14u7FecNSVI0=";
+    url = "https://desktop.app.music.yandex.net/stable/Yandex_Music_amd64_5.103.2.deb";
+    hash = "sha256-SKfJwJqlvoxjRszdpzmR/w2Xo1S+24mkakFAVD5tvXs==";
   };
 
   nativeBuildInputs = [
